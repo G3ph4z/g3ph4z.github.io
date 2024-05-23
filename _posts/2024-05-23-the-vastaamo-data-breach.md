@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Vastaamo data breach
-description: The incident where the hacker has blackmailed 33,00 patients
+description: The tragic incident where the medical information of 33,000 patients was exposed
 categories:
 - Incidents
 tags:
