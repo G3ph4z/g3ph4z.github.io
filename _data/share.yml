@@ -4,15 +4,15 @@
 platforms:
   - type: Twitter
     icon: "fa-brands fa-square-x-twitter"
-    link: "https://twitter.com/intent/tweet?text=TITLE&url=URL"
+    link: "https://twitter.com/intent/tweet?text=Denes+Security+Blog&url=https://blog.denes.cloud"
 
   - type: Facebook
     icon: "fab fa-facebook-square"
-    link: "https://www.facebook.com/sharer/sharer.php?title=TITLE&u=URL"
+    link: "https://www.facebook.com/sharer/sharer.php?title=Denes+Security+Blog&u=https://blog.denes.cloud""
 
   - type: Telegram
     icon: "fab fa-telegram"
-    link: "https://t.me/share/url?url=URL&text=TITLE"
+    link: "https://t.me/share/url?url=URL&text=Denes+Security+Blog"
 
   # Uncomment below if you need to.
   #
