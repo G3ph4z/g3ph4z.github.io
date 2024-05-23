@@ -46,12 +46,12 @@ The suspect, Aleksanteri Julius Kivimäki, was charged in absentia at the Helsin
     title Vastaamo Cyberattack Incident Timeline
     dateFormat  YYYY-MM-DD
     First access :a1, 2018-11-01, 10d
-    Incident became public :a2, 2020-10-01, 1d
-    Vastaamo refuses to pay ransom :a3, 2020-10-01, 1d
-    Finnish DPA fines Vastaamo :a4, 2021-12-01, 1d
-    Suspect arrested :a5, 2023-02-01, 1d
-    Suspect extradited :a6, 2023-10-01, 1d
-    Suspect sentenced :a7, 2024-05-01, 1d
+    Incident became public :a2, 2020-10-01, 3d
+    Vastaamo refuses to pay ransom :a3, 2020-10-01, 3d
+    Finnish DPA fines Vastaamo :a4, 2021-12-01, 3d
+    Suspect arrested :a5, 2023-02-01, 3d
+    Suspect extradited :a6, 2023-10-01, 3d
+    Suspect sentenced :a7, 2024-05-01, 3d
 ```
 
 [^footnote]: <https://yle.fi/a/74-20077285>
