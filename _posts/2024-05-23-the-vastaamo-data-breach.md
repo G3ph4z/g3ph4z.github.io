@@ -39,20 +39,19 @@ In December 2021, the Finnish Data Protection Authority (DPA) fined Vastaamo 608
 
 The suspect, Aleksanteri Julius Kivimäki, was charged in absentia at the Helsinki District Court with aggravated data breach, aggravated attempted extortion, aggravated distribution of information infringing private life, blackmail, breach of confidentiality, and falsification of evidence. He was arrested in France in February 2023. After being extradited to Finland, he was charged in October 2023. Finally, in May 2024, he was found guilty of stealing confidential therapy notes to blackmail thousands of patients and was sentenced to six years and three months in prison.
 
-## Timeline of the incident
+## Timeline
 
 ```mermaid
   gantt
     title Vastaamo Cyberattack Incident Timeline
     dateFormat  YYYY-MM-DD
-    section Incident Timeline
-    Intruders first access patient records :a1, 2018-11-01, 2019-03-01
-    Cyberattack becomes public :a2, 2020-10-01, 1d
-    Vastaamo refuses to pay ransom; suspect begins blackmailing patients :a3, 2020-10-01, 1d
-    Finnish DPA fines Vastaamo for GDPR violations :a4, 2021-12-01, 1d
-    Suspect arrested in France :a5, 2023-02-01, 1d
-    Suspect extradited to Finland and charged :a6, 2023-10-01, 1d
-    Suspect found guilty and sentenced :a7, 2024-05-01, 1d
+    First access :a1, 2018-11-01, 10d
+    Incident became public :a2, 2020-10-01, 1d
+    Vastaamo refuses to pay ransom :a3, 2020-10-01, 1d
+    Finnish DPA fines Vastaamo :a4, 2021-12-01, 1d
+    Suspect arrested :a5, 2023-02-01, 1d
+    Suspect extradited :a6, 2023-10-01, 1d
+    Suspect sentenced :a7, 2024-05-01, 1d
 ```
 
 [^footnote]: <https://yle.fi/a/74-20077285>
