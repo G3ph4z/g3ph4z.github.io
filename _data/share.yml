@@ -8,7 +8,7 @@ platforms:
 
   - type: Facebook
     icon: "fab fa-facebook-square"
-    link: "https://www.facebook.com/sharer/sharer.php?title=Denes+Security+Blog&u=https://blog.denes.cloud""
+    link: "https://www.facebook.com/sharer/sharer.php?title=Denes+Security+Blog&u=https://blog.denes.cloud"
 
   - type: Telegram
     icon: "fab fa-telegram"
