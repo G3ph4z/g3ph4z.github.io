@@ -23,7 +23,7 @@ Vastaamo, a Finnish private psychotherapy service provider, fell victim to a cyb
 
 ## Unfortunately, the most important part
 
-When the company refused to pay the ransom, Aleksanteri Julius Kivimäki, the suspect behind the breach, decided to blackmail the patients instead. He sent thousands of emails threatening to publish their personal details and consultation notes. The information he threatened to release was highly sensitive and personal, with the potential to devastate the victims' lives. 
+When the company refused to pay the ransom, Aleksanteri Julius Kivimäki[^kivimaki], the suspect behind the breach, decided to blackmail the patients instead. He sent thousands of emails threatening to publish their personal details and consultation notes. The information he threatened to release was highly sensitive and personal, with the potential to devastate the victims' lives. 
 
 > Some patients from the Vastaamo psychotherapy centre had died by suicide after their patient records were stolen and used in extortion attempts, according to a lawyer representing victims.[^footnote]
 
@@ -55,4 +55,5 @@ The suspect, Aleksanteri Julius Kivimäki, was charged in absentia at the Helsin
 ```
 
 [^footnote]: <https://yle.fi/a/74-20077285>
+[^kivimaki]: <https://fi.wikipedia.org/wiki/Aleksanteri_Kivim%C3%A4ki>
 
