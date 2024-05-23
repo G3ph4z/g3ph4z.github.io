@@ -7,4 +7,10 @@ date: 2024-05-23 16:26 +0200
 ---
 Hello,
 
-this is my first, and hopefully not the last post on this blog.
+Welcome to my blog! I'm planning to write posts about:
+
+- DFIR
+- Low-level coding
+- Binary topics, like reverse engineering and exploitation
+- CTF write-ups
+
