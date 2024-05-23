@@ -11,7 +11,7 @@ tags:
 - data breach
 mermaid: true
 image:
-  path: "/assets/vastaamo.png"
+  path: "/assets/img/vastaamo.png"
   alt: Picture of Finnish 4chan
 date: 2024-05-23 21:06 +0200
 ---
