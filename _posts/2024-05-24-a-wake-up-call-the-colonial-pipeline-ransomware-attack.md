@@ -59,15 +59,16 @@ In the aftermath of the Colonial Pipeline attack, there has been a renewed focus
 ## Timeline
 
 ```mermaid
+  timeline
     title The Colonial Pipeline Ransomware Attack
-        2021-05-07 : Ransomware Attack Begins
-        2021-05-08 : Pipeline Shutdown
-        2021-05-09 : Federal Response
-        2021-05-10 : Ransom Paid
-        2021-05-12 : Operations Resume
-        2021-05-13 : Fuel Shortages Peak
-        2021-06-07 : Ransom Recovery
+      2021-05-07 : Ransomware Attack Begins
+      2021-05-08 : Pipeline Shutdown
+      2021-05-09 : Federal Response
+      2021-05-10 : Ransom Paid
+      2021-05-12 : Operations Resume
+      2021-05-13 : Fuel Shortages Peak
+      2021-06-07 : Ransom Recovery
 ```
 
-[^impact] <https://en.wikipedia.org/wiki/Colonial_Pipeline_ransomware_attack>
-[^ransom] <https://www.bbc.co.uk/news/business-57394041>
+[^impact]: <https://en.wikipedia.org/wiki/Colonial_Pipeline_ransomware_attack>
+[^ransom]: <https://www.bbc.co.uk/news/business-57394041>
