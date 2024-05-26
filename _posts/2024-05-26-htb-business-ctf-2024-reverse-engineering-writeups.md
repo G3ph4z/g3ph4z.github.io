@@ -61,7 +61,7 @@ There is not much code in it. Here's a high-level overview of the main function:
 
 Let's see the &check array, because it seems interesting:
 
-![Desktop View](/assets/img/htb_business/flagcasino/chech.png){: width="743" height="190" }
+![Desktop View](/assets/img/htb_business/flagcasino/check.png){: width="743" height="190" }
 _Check array_
 
 Based on the main function, this might be our flag in an encoded version.
