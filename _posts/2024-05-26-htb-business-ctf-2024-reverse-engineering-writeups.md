@@ -485,7 +485,8 @@ _Victory!_
 
 Our flag!!! At least a bigger part of it. I wasn't sure whether it was the whole flag, but I wanted to give it a try, so I added HTB{ at the beginning AND IT WORKED.
 I think I was very lucky with this, and as the description said, the first 100 players who solve it will get a swag package from BugCrowd. I was the 60th.
-Guess I'll update this post when I get the package.
+
+Guess I'll update this post once I get the package. 📦
 
 
 
