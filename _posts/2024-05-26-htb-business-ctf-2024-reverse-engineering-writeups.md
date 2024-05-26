@@ -165,13 +165,13 @@ _The main function_
 Oh god, it's in Rust 🦀, not the easiest to reverse alongside Golang.
 I didn't see anything interesting at first, so I fired it up in the debugger to see what was happening under the hood, and came across this suspicious function:
 
-![Desktop View](/assets/img/htb_business/dontpanic/weird_function.png{: width="1591" height="759" }
+![Desktop View](/assets/img/htb_business/dontpanic/weird_function.png){: width="1591" height="759" }
 _It is weird, isn't it?_
 
 There are 31 of these functions, which is exactly how long our flag is supposed to be.
 If we check one of them, it's clear that each of them checks a single character of the input:
 
-![Desktop View](/assets/img/htb_business/dontpanic/func_char_check.png{: width="1150" height="296" }
+![Desktop View](/assets/img/htb_business/dontpanic/func_char_check.png){: width="1150" height="296" }
 _There is our character_
 
 Yep, 0x54 is uppercase "T".
@@ -280,7 +280,7 @@ Don't worry, you don't have to read it, it is a nodejs snapshot, so let's see wh
 
 I had to scroll a bit, but I found something readable:
 
-![Desktop View](/assets/img/htb_business/snappedshut/hex_javascript.png{: width="687" height="759" }
+![Desktop View](/assets/img/htb_business/snappedshut/hex_javascript.png){: width="687" height="759" }
 _Something sneaky is going on here_
 
 If we reformat the code, it will be more readable. I also added some comments:
