@@ -17,7 +17,7 @@ date: 2024-05-26 18:50 +0200
 ## Overview
 As always, HTB has created a really great CTF. It was 5 days long with 58 challenges over 12 categories. In the end, 4944 players joined across 943 teams.
 
-Our team has been doing CTFs for a little more than a year, so it was a great way to celebrate our anniversary. We try to stick to our strategy, which means I usually focus on the RE and PWN categories. I managed to solve 4 of 5 reverse engineering challenges (including the hard one), skipping the medium because my brain cannot comprehend challenges with mazes ( (╯°□°)╯︵ ┻━┻ ). The team did an awesome job solving the other challenges, so a big kudos to them, because their efforts gave me motivation along the way.
+Our team has been doing CTFs for a little more than a year, so it was a great way to celebrate our anniversary. We try to stick to our strategy, which means I usually focus on the RE and PWN categories. I managed to solve 4 of 5 reverse engineering challenges (including the hard one), skipping the medium because my brain cannot comprehend challenges with mazes ( (╯°□°)╯︵ ┻━┻ ). The team did an awesome job, not only because they solved the majority of the challenges, but also because their efforts gave me motivation along the way. So, a big kudos to them.
 
 For the decompiler, I used Binary Ninja aka Binja (free)[^binja]. It has a very user-friendly UI, great workflow, and provides awesome scripting capabilities. I know some people prefer IDA or Ghidra, but if you haven't tried it yet, it's worth checking out. 
 
@@ -195,7 +195,7 @@ The team enters Vault 266, attempting to meet with a mysterious contact who has 
 
 In this challenge, we got 3 files:
 
-```text
+```javascript
 ┌──(denes㉿kali)-[~/Desktop/rev_snappedshut]
 └─$ cat index.js      
 const express = require('express');
@@ -239,7 +239,7 @@ app.listen(port, () => {
 
 ```
 
-```text
+```json
 ┌──(denes㉿kali)-[~/Desktop/rev_snappedshut]
 └─$ cat package.json 
 {
@@ -487,17 +487,6 @@ Our flag!!! At least a bigger part of it. I wasn't sure whether it was the whole
 I think I was very lucky with this, and as the description said, the first 100 players who solve it will get a swag package from BugCrowd. I was the 60th.
 
 Guess I'll update this post once I get the package. 📦
-
-
-
-
-
-
-
-
-
-
-
 
 
 [^binja]: <https://binary.ninja/>
