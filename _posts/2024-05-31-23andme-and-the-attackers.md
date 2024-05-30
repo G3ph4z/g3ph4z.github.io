@@ -54,8 +54,7 @@ The 23andMe breach demonstrated the need for comprehensive incident response pla
 
 ```mermaid
    timeline
-    title 23andMe - and the Attackers: A Genetic Data Breach Story
-
+   
     section Discovery
     October 11, 2023: 23andMe discovers unauthorized access to user accounts
 
