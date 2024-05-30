@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 23andMe - and the Attackers
-description: A genetic data breach story,this incident raised serious concerns about
+description: A genetic data breach story; this incident raised serious concerns about
   the security of genetic data and the potential implications for personal privacy.
 categories:
 - Incidents
