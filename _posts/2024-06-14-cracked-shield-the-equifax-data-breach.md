@@ -15,11 +15,11 @@ date: 2024-06-14 21:51 +0200
 ---
 ## What Happened?
 
-In one of 2017’s most notorious data breaches, credit reporting giant Equifax fell victim to a cyber attack that exposed sensitive information of 147 million people. Attackers exploited a vulnerability (CVE-2017-5638) in the Apache Struts web application framework used by Equifax. Despite a patch being available, Equifax had not applied it in a timely manner. This allowed attackers to access sensitive data including names, social security numbers, birth dates, addresses, and in some cases, driver's license numbers and credit card information.
+In one of 2017’s most notorious data breaches, credit reporting giant Equifax fell victim to a cyber attack that exposed sensitive information of 147 million people. Attackers exploited a vulnerability (CVE-2017-5638[^cve]) in the Apache Struts web application framework used by Equifax. Despite a patch being available, Equifax had not applied it in a timely manner. This allowed attackers to access sensitive data including names, social security numbers, birth dates, addresses, and in some cases, driver's license numbers and credit card information.
 
 ## The Vulnerability
 
-The vulnerability in Apache Struts, CVE-2017-5638, was a remote code execution flaw that allowed attackers to execute arbitrary code on the server by sending a specially crafted HTTP request. The flaw was disclosed in March 2017, but Equifax failed to apply the patch released by Apache.
+The vulnerability in Apache Struts, CVE-2017-5638[^cve], was a remote code execution flaw that allowed attackers to execute arbitrary code on the server by sending a specially crafted HTTP request. The flaw was disclosed in March 2017, but Equifax failed to apply the patch released by Apache.
 
 ##  Attack Execution
 
@@ -94,3 +94,5 @@ timeline
     December 2017 : Post-Breach Investigations
     July 2019 : Settlement Announcement
 ```
+
+[^cve]: <https://nvd.nist.gov/vuln/detail/cve-2017-5638>
