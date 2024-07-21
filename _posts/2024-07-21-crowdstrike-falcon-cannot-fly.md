@@ -48,7 +48,9 @@ A little bit later, CrowdStrike and even Microsoft published several official po
 That's a really good question. Based on the official post[^post1], the issue was caused by faulty channel files, basically configuration files. Initially, they were mistaken for Windows kernel drivers due to their .sys extension.
 
 But you might wonder, what are these used for?
+
 > Channel File 291 controls how Falcon evaluates named pipe[^pipes] execution on Windows systems. Named pipes are used for normal, interprocess or intersystem communication in Windows.
+
 Basically, a channel file contains specific monitoring and response rules for the sensor. It tells the agent what counts as suspicious activities and how it should react to the identified threat by (e.g.,) removing a malicious file, killing a process, or isolating the endpoint. These files can also contain settings regarding the communications between the XDR and the cloud-based management platform.
 
 Some early reports suggested that the issue was caused by NULL bytes present in the channel files. Later, CrowdStrike clarified that it was caused by a logic error. 
