@@ -10,7 +10,7 @@ mermaid: true
 image:
   path: "/assets/img/nbc_cover.jpg"
   alt: BSOD on Macy's building in New York City (Sean Reis / NBC News)
-date: 2024-07-21 23:55 +0200
+date: 2024-07-21 21:55 +0200
 ---
 > Please note that I'm not trying to blame anyone, and my employee has nothing to do with this article. 
 {: .prompt-info }
