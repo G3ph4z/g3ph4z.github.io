@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'CrowdStrike: When the Falcon strikes down the crowds'
+description: Probably the biggest IT outage in the decade
 categories:
 - Incidents
 tags:
