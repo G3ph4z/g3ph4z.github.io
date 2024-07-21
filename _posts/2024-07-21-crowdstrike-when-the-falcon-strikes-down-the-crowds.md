@@ -27,21 +27,23 @@ Even though "only" 8.5 million devices were affected, which is less than 1% of d
 
 ## First response from CrowdStrike
 
-A few hours into the outage, companies realized what had happened, so CrowdStrike's CEO announced that they were investigating the issue at the moment.
+A few hours into the outage, companies realized what had happened, so CrowdStrike's CEO announced that they were investigating the issue.
 
 ![Desktop View](/assets/img/crowdstrike/george_kurtz_post.png){: width="597" height="370" }
 
-The first post didn't achieve what it was meant to, at least based on the community's reaction. But given the situation's impact, it was totally understandable at that moment.
+The first post didn't achieve what it was meant to, at least based on the community's reaction. But given the situation's impact, their repone was totally understandable at that time.
 
 ![Desktop View](/assets/img/crowdstrike/random_comment_1.png){: width="591" height="111" }
 ![Desktop View](/assets/img/crowdstrike/random_comment_2.png){: width="588" height="98" }
 
-Some people bought domains to make fun of the company, but... Threat Actors did that too. We'll talk about that later on.
+Some people bought domains to make fun of the company, but... 
 
 ![Desktop View](/assets/img/crowdstrike/domains_1.png){: width="407" height="224" }
 ![Desktop View](/assets/img/crowdstrike/domains_2.png){: width="431" height="221" }
 
-A little bit later, CrowdStrike and even Microsoft published several official posts regarding the incident and the state of the recovery process.
+Threat Actors did that too, we'll talk about it later.
+
+CrowdStrike and even Microsoft published several official posts regarding the incident and the state of the recovery process.
 
 ## But what caused the BSOD?
 
