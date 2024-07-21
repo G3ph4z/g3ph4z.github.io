@@ -75,7 +75,7 @@ Of course, this solution is for the simplest scenarios, but there were hundreds 
 
 Unfortunately, attackers wanted to take a slice of the bitter pie. They immediately bought several misleading domains for malicious purposes, such as using them to deliver fake hotfixes and steal credentials. Any.Run has already found a malicious "hotfix"[^anyrun1] that delivers Remcos malware to the victim's machine. I believe this will continue for a while.
 
-> Please be cautious out there and only use the official site for any kind of communication and downloading anything.
+> Please be cautious out there and only use the official site for any kind of communication.
 {: .prompt-warning }
 
 ## What happens after this?
