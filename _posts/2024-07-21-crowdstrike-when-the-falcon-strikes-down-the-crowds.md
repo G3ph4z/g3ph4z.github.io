@@ -13,12 +13,12 @@ image:
   alt: BSOD on Macy's building in New York City (Sean Reis / NBC News)
 date: 2024-07-21 23:55 +0200
 ---
-> Please note that I'm not trying to blame anyone, and my employee has nothing to do with this article. 
+> Please note that the views and opinions expressed in this article are solely my own.
 {: .prompt-info }
 
 ## What happened?
 
-On Friday, July 19, 2024, a major cybersecurity company, CrowdStrike, released a sensor update for their XDR agent named Falcon. This update triggered a global IT outage, affecting approximately 8.5 million Windows devices. The devices crashed and went into a Blue Screen of Death (BSOD) loop following the update. Critical services, including telecommunications, banking, airlines, railways, supermarkets, hospitals, and major news networks, were severely impacted. CrowdStrike’s CEO confirmed that the issue was not a security incident or cyberattack.
+On Friday, July 19, 2024, a major cybersecurity company, CrowdStrike, released a sensor update for their XDR agent named Falcon. This update triggered a global IT outage, affecting approximately 8.5 million Windows devices. The devices crashed and went into a Blue Screen of Death (BSOD) loop following the update. Critical services, such as telecommunications, banking, airlines, hospitals and major news networks were severely impacted. CrowdStrike’s CEO confirmed that the issue was not a security incident or cyberattack.
 
 ## Who were affected?
 
@@ -27,11 +27,11 @@ Even though "only" 8.5 million devices were affected, which is less than 1% of d
 
 ## First response from CrowdStrike
 
-A few hours into the outage, companies realized what had happened, so CrowdStrike's CEO announced that they were investigating the issue.
+“A few hours into the outage, companies that were taken down realized what had happened and demanded answers from the supplier, so CrowdStrike’s CEO announced that they are investigating the issue.
 
 ![Desktop View](/assets/img/crowdstrike/george_kurtz_post.png){: width="597" height="370" }
 
-The first post didn't achieve what it was meant to, at least based on the community's reaction. But given the situation's impact, their repone was totally understandable at that time.
+The first post didn't achieve what it was meant to, at least based on the community's reaction. But given the situation's impact, their response was totally understandable at that time.
 
 ![Desktop View](/assets/img/crowdstrike/random_comment_1.png){: width="591" height="111" }
 ![Desktop View](/assets/img/crowdstrike/random_comment_2.png){: width="588" height="98" }
@@ -41,7 +41,7 @@ Some people bought domains to make fun of the company, but...
 ![Desktop View](/assets/img/crowdstrike/domains_1.png){: width="407" height="224" }
 ![Desktop View](/assets/img/crowdstrike/domains_2.png){: width="431" height="221" }
 
-Threat Actors did that too, we'll talk about it later.
+Threat Actors did that too, we'll discuss about itlater.
 
 CrowdStrike and even Microsoft published several official posts regarding the incident and the state of the recovery process.
 
@@ -53,7 +53,7 @@ But you might wonder, what are these used for?
 
 > Channel File 291 controls how Falcon evaluates named pipe[^pipes] execution on Windows systems. Named pipes are used for normal, interprocess or intersystem communication in Windows.
 
-Basically, a channel file contains specific monitoring and response rules for the sensor. It tells the agent what counts as suspicious activities and how it should react to the identified threat by (e.g.,) removing a malicious file, killing a process, or isolating the endpoint. These files can also contain settings regarding the communications between the XDR and the cloud-based management platform.
+Basically, a channel file contains specific monitoring and response rules for the sensor. It tells the agent what counts as suspicious activities and how it should react to the identified threat by (e.g.) removing a malicious file, killing a process, or isolating the endpoint. These files can also contain settings regarding the communications between the XDR and the cloud-based management platform.
 
 Some early reports suggested that the issue was caused by NULL bytes present in the channel files. Later, CrowdStrike clarified that it was caused by a logic error. 
 
@@ -73,7 +73,7 @@ Of course, this solution is for the simplest scenarios, but there were hundreds 
 
 ## Threat Actors jumped right on the train
 
-Unfortunately, attackers wanted to take a slice of the bitter pie. They immediately bought several misleading domains for malicious purposes, such as using them to deliver fake hotfixes and steal credentials. Any.Run has already found a malicious "hotfix"[^anyrun1] that delivers Remcos malware to the victim's machine. I believe this will continue for a while.
+Unfortunately, attackers wanted to take a slice too. They immediately bought several misleading domains for malicious purposes, such as using them to deliver fake hotfixes and steal credentials. Any.Run has already found a malicious "hotfix"[^anyrun1] that delivers Remcos malware to the victim's machine. I believe this will continue for a while.
 
 > Please be cautious out there and only use the official site for any kind of communication.
 {: .prompt-warning }
